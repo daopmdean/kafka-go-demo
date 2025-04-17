@@ -29,7 +29,7 @@ func main() {
 
 	err := writer.WriteMessages(ctx, kafka.Message{
 		Key:   []byte("key-1"),
-		Value: []byte("Hello Kafka from Go!"),
+		Value: []byte("Hello Kafka from Go!!!!!"),
 	})
 	if err != nil {
 		log.Fatal("failed to write messages:", err)
